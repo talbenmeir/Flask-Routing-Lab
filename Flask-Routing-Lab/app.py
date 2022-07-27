@@ -16,6 +16,10 @@ def hello_world():
 def hello_world1():
 	return render_template("product.html")
 
+@app.route('/cart')
+def hello_world2():
+	return render_template("cart.html")
+
 # Your code should be above
 
 if __name__ == "__main__":  # Makes sure this is the main process
