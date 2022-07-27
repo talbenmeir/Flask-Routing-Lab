@@ -16,6 +16,10 @@ def hello_world():
 def hello_world1():
 	return render_template("product.html")
 
+@app.route('/product2')
+def hello_world3():
+	return render_template("productbut.html")
+
 @app.route('/cart')
 def hello_world2():
 	return render_template("cart.html")
